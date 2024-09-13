@@ -1,0 +1,12 @@
+c = float(input('enter temperature in celsius : '))
+dic = {
+'f' : c*9/5+32,
+'k' : c+273.15,
+'ra' : (c+273.15)*9/5,
+'re' : c*4/5,
+'n' : c*33/100,
+'de' : (100-c)*3/2,
+'ro' : c*21/40+7.5,
+}
+a = input()
+print(dic[a])

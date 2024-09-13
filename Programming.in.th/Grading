@@ -1,0 +1,1 @@
+print('FFFFFFFFFFDDCCBBAAAA'[(a:=int(input())//5)]+'           + + +    '[a])

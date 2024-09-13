@@ -1,0 +1,1 @@
+print('FFFFFFFFFFDDCCBBAAAA'[0])
