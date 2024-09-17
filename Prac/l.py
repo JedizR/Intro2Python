@@ -15,3 +15,8 @@ else:
 
 # Output
 print(total)
+
+# Alternative Solution
+'''
+print(sum(sorted([int(input()),int(input()),int(input())])[1:]))
+'''

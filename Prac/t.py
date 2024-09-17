@@ -9,3 +9,8 @@ for i in range(n):
 
 # Output
 print(total)
+
+# Alternative Solution
+'''
+print(sum(int(input()) for _ in range(int(input()))))
+'''

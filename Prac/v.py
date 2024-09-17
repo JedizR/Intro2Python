@@ -10,3 +10,8 @@ for i in range(n):
 
 # Output
 print(count)
+
+# Alternative Solution
+'''
+print(sum(int(input())==0 for _ in range(int(input()))))
+'''

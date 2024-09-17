@@ -11,3 +11,8 @@ for i in range(1, num + 1):
 
 # Output
 print(total)
+
+# Alternative Solution
+'''
+print(sum(i**2 for i in range(1,int(input())+1)))
+'''

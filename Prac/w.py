@@ -12,3 +12,8 @@ missing_hero = total_hero - found_hero
 
 # Output
 print(missing_hero)
+
+# Alternative Solution
+'''
+print((n:=int(input()))*(n+1)//2-sum(int(input()) for _ in range(n-1)))
+'''

@@ -29,3 +29,8 @@ else:
             print("YES")
         else:
             print("NO")
+            
+# Alternative Solution
+'''
+print("YES" if (max((a:=int(input())), (b:=int(input()))) <= max((c:=int(input())), (d:=int(input()))) and min(a, b) <= min(c, d)) else "NO")
+'''

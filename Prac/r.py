@@ -6,3 +6,8 @@ num = int(input())
 # Calculation and Output
 for i in range(num, 0, -1):
     print(i)
+    
+# Alternative Solution
+'''
+print(*range(int(input()),0,-1))
+'''
